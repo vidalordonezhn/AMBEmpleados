@@ -1,0 +1,9 @@
+<h1 mat-dialog-title style="text-align: center;">Mensaje Confirmacion</h1>
+<div mat-dialog-content>
+  <p style="text-align: center;">{{ mensaje }}
+</div>
+<div mat-dialog-actions style="margin-left: 50px;">
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="btn" cdkFocusInitial>Aceptar</button>
+</div>
+   

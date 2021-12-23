@@ -1,0 +1,17 @@
+.example-container{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+.btn-success {
+    background-color: #f44336;
+    border-color: #f44336;
+}
+
+.mda-form-msj{ 
+    color: #f44336;
+}
